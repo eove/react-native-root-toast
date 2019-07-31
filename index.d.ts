@@ -7,6 +7,7 @@ declare module "react-native-root-toast"{
     import * as ReactNative from "react-native";
     import {TextStyle,StyleProp,ViewStyle} from "react-native";
     export interface ToastOptions {
+        defaultStyle?:StyleProp<ViewStyle>
         containerStyle?:StyleProp<ViewStyle>
         duration?:number
         visible?: boolean,
